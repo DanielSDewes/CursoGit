@@ -22,4 +22,13 @@ git pull origin main //comando para buscar alterações feitas no repositório
 git revert idDoCommitAReverter
 Ele faz um novo commit, revertendo a alteração, primeiramente local, e deve ser enviado para o GitHub.
 
-Para desfazer um commit, utiliza-se o comando git reset --hard e8e64c524ba1cadebe67d6660f3f4b860ce445c8 // esse id é o id do commit ANTERIOR ao que queremos desfazer.
+Para desfazer um commit, utiliza-se o comando git reset --hard <id_do_commit_anterior>
+
+Para alterar o commit, utiliza-se o comando: git commit --amend -m "Alterando mensagem anterior", com isso, altera-se a mensagem do último commit, e refaz o mesmo, então adiciona
+as alterações feitas nos objetos staged também.
+
+Para adicionar objetos para serem ignorados no commit, mesmo chamando git add .
+Criamos um arquivo chamado .gitignore
+Para ignorar um pasta inteira usa-se "/nomepaste" sem as aspas, ou somente o nome do arquivo a ser ignorado
+O .gitignore tem que ser mandado pro github
+Site para auxiliar na criação do .gitignore: https://www.toptal.com/developers/gitignore/
