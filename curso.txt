@@ -18,3 +18,8 @@ Co-authored-by: NOME <nome@email.com>
 Co-authored-by: OUTRO-NOME <outro@email.com>" // para adicionar pessoas que colaboraram nas alterações sendo commitadas
 
 git pull origin main //comando para buscar alterações feitas no repositório
+
+git revert idDoCommitAReverter
+Ele faz um novo commit, revertendo a alteração, primeiramente local, e deve ser enviado para o GitHub.
+
+Para desfazer um commit, utiliza-se o comando git reset --hard e8e64c524ba1cadebe67d6660f3f4b860ce445c8 // esse id é o id do commit ANTERIOR ao que queremos desfazer.
