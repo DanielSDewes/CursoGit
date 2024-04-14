@@ -9,3 +9,12 @@ git branch -M main //comando para criar a branche main
 git commmit -m "mensagem" //comando para realizar commit 
 git push -u origin main //comando para enviar os arquivos para a branch main
 
+git log //ver histórico de commits do repositório
+
+git commit -m "Adicionar nova funcionalidade.
+>
+>
+Co-authored-by: NOME <nome@email.com>
+Co-authored-by: OUTRO-NOME <outro@email.com>" // para adicionar pessoas que colaboraram nas alterações sendo commitadas
+
+git pull origin main //comando para buscar alterações feitas no repositório
