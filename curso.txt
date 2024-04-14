@@ -1,7 +1,7 @@
 Comandos git 
 
-git config --global user.email "rodrigo.alura87@gmail.com" //comandos para configurar o usuário do git
-git config --global user.name "Rodrigo Ferreira" // 
+git config --global user.email "email@exemplo.com" //comandos para configurar o usuário do git
+git config --global user.name "Daniel Dewes" // 
 
 git init // rodar uma vez para criar o repositório local, se rodar mais de uma vez ele irá recriar o repositório local, mas não irá perder o histórico de alterações.
 git add . // comando para adicionar todos os arquivos de uma vez só para serem commitados
